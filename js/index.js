@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||罗琳|祝你|生日快乐!|🎂|');
+      S.UI.simulate('|#countdown 3||罗琳|祝你|生日快乐!|🎂|我知道最近你为考研付出了很多|也感受到了你心里的压力和不安|但请记住|真正重要的不是结果|而是你在追梦路上那份无畏的坚持|未来无论顺逆|我都会和你一起走过|你不是一个人|咱们一起加油！|相信你自己|你真的很棒！💪|感谢你一直以来的陪伴|也希望我能一直在你身边|见证你的每一个高光时刻！|');
     }
 
     S.Drawing.loop(function () {
